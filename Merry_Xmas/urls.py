@@ -18,7 +18,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
+from ML.views import *
+
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("", 'Merry_Xmas.urls', include('Merry_Xmas.urls')),
+    path("", include("ML.urls"),name="ML"),
 ]
