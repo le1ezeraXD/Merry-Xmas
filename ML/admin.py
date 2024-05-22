@@ -4,3 +4,4 @@ from django.contrib import admin
 import ML.models as models
 
 admin.site.register(models.Topic)
+admin.site.register(models.Entry)
