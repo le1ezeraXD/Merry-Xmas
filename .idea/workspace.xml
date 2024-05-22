@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="175425d1-3c86-4ba5-adb4-eedefae43c4d" name="Changes" comment="define Entry model">
-      <change afterPath="$PROJECT_DIR$/ML/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Merry_Xmas/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Merry_Xmas/urls.py" afterDir="false" />
+    <list default="true" id="175425d1-3c86-4ba5-adb4-eedefae43c4d" name="Changes" comment="Shine upon URL">
+      <change beforePath="$PROJECT_DIR$/ML/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +143,7 @@
       <workItem from="1716345876308" duration="1358000" />
       <workItem from="1716347929230" duration="153000" />
       <workItem from="1716348173462" duration="197000" />
-      <workItem from="1716348447325" duration="6827000" />
+      <workItem from="1716348447325" duration="7120000" />
     </task>
     <task id="LOCAL-00001" summary="Init project">
       <option name="closed" value="true" />
@@ -203,7 +201,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716361686993</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Shine upon URL">
+      <option name="closed" value="true" />
+      <created>1716364976799</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1716364976799</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,7 +235,8 @@
     <MESSAGE value="create super user" />
     <MESSAGE value="register Topic model" />
     <MESSAGE value="define Entry model" />
-    <option name="LAST_COMMIT_MESSAGE" value="define Entry model" />
+    <MESSAGE value="Shine upon URL" />
+    <option name="LAST_COMMIT_MESSAGE" value="Shine upon URL" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Merry_Xmas$manage.coverage" NAME="manage Coverage Results" MODIFIED="1716357093634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
