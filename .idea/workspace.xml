@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="175425d1-3c86-4ba5-adb4-eedefae43c4d" name="Changes" comment="Adjust project structure">
-      <change afterPath="$PROJECT_DIR$/ML/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Merry_Xmas/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Merry_Xmas/settings.py" afterDir="false" />
-    </list>
+    <list default="true" id="175425d1-3c86-4ba5-adb4-eedefae43c4d" name="Changes" comment="create model Topic and makemigrations" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -139,7 +134,7 @@
       <workItem from="1716345876308" duration="1358000" />
       <workItem from="1716347929230" duration="153000" />
       <workItem from="1716348173462" duration="197000" />
-      <workItem from="1716348447325" duration="2196000" />
+      <workItem from="1716348447325" duration="2577000" />
     </task>
     <task id="LOCAL-00001" summary="Init project">
       <option name="closed" value="true" />
@@ -157,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716348558878</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="create model Topic and makemigrations">
+      <option name="closed" value="true" />
+      <created>1716358075206</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716358075206</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,7 +181,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Init project" />
     <MESSAGE value="Adjust project structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adjust project structure" />
+    <MESSAGE value="create model Topic and makemigrations" />
+    <option name="LAST_COMMIT_MESSAGE" value="create model Topic and makemigrations" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Merry_Xmas$manage.coverage" NAME="manage Coverage Results" MODIFIED="1716357093634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
