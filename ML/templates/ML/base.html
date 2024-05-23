@@ -7,6 +7,12 @@
 <body>
 <p>
     <a href="{% url 'index' %}">Learning Log</a>
+    <a href="{% url 'topics' %}">Topics</a>
 </p>
+<main>
+    {%  block content %}
+    {% endblock content %}
+</main>
+
 </body>
 </html>
