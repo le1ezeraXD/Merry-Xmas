@@ -5,6 +5,10 @@
     <title>Topics</title>
 </head>
 <body>
+{% extends "ML/base.html" %}
+
+{% block content %}
+<p>Topics</p>
   <ul>
     {% for topic in topics %}
       <li>{{ topic }}</li>
@@ -12,5 +16,6 @@
       <li>No topics have been added yet.</li>
       {% endfor %}
   </ul>
+{% endblock content %}
 </body>
 </html>
