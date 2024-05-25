@@ -2,8 +2,8 @@ from django.http import HttpResponseRedirect
 from django.shortcuts import render
 from django.urls import reverse
 
-from ML.forms import TopicForm
-from ML.models import Topic
+from ML.forms import TopicForm, EntryForm
+from ML.models import Topic, Entry
 
 
 # Create your views here.
@@ -31,6 +31,36 @@ def new_topic(request):
         form = TopicForm(request.POST)
         if form.is_valid():
             form.save()
-            return HttpResponseRedirect(reverse('ML:topics'))
+            return HttpResponseRedirect(reverse('topics'))
     context = {'form': form}
     return render(request, 'ML/new_topic.html', context)
+
+def new_entry(request, topic_id):
+    topic = Topic.objects.get(id=topic_id)
+
+    if request.method != 'POST':
+        form = EntryForm()
+    else:
+        form = EntryForm(data=request.POST)
+        if form.is_valid():
+            new_entry = form.save(commit=False)
+            new_entry.topic = topic
+            new_entry.save()
+            return HttpResponseRedirect(reverse('topic', args=[topic_id]))
+    context = {'topic': topic, 'form': form}
+    return render(request, 'ML/new_entry.html', context)
+
+def edit_entry(request, entry_id):
+    entry = Entry.objects.get(id=entry_id)
+    topic = entry.topic
+
+    if request.method != 'POST':
+        form = EntryForm(instance=entry)
+    else:
+        form = EntryForm(instance=entry, data=request.POST)
+        if form.is_valid():
+            form.save()
+            return HttpResponseRedirect(reverse('topic', args=[topic.id]))
+
+    context = {'entry': entry, 'topic': topic, 'form': form}
+    return render(request, 'ML/edit_entry.html', context)

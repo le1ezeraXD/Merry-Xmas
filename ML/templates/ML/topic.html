@@ -2,18 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Topic</title>
 </head>
 <body>
 {% extends 'ML/base.html' %}
 
 {% block content %}
-	<p>Entries</p>
+    <p>Topic: {{ topic }}</p>
+
+	<p>Entries:</p>
+    <p>
+    <a href="{% url 'new_entry' topic.id %}">add new entry</a>
+    </p>
     <ul>
     {% for entry in entries %}
         <li>
         <p>{{  entry.date_added|date:' M d, Y H:i' }}</p>
         <p>{{  entry.text|linebreaks }}</p>
+        <p>
+            <a href="{% url 'edit_entry' entry.id %}">edit entry</a>
+        </p>
         </li>
         {% empty %}
         <li>
