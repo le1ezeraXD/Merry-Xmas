@@ -23,4 +23,5 @@ from ML.views import *
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("", include("ML.urls"),name="ML"),
+    path("users/", include("users.urls"),name="users"),
 ]
