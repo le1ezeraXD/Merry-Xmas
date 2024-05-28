@@ -14,8 +14,8 @@ def register(request):
         form = UserCreationForm(request.POST)
         if form.is_valid():
             new_user = form.save()
-            authenticated_user = authenticate(username=form.cleaned_data['username'],
-                                              password=form.cleaned_data['<PASSWORD>'])
+            authenticated_user = authenticate(username=new_user.username,
+                                              password=request.POST['password1'])
             login(request, authenticated_user)
             return HttpResponseRedirect(reverse('index'))
     context = {'form': form}
