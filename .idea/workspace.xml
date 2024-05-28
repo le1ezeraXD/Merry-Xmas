@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="175425d1-3c86-4ba5-adb4-eedefae43c4d" name="Changes" comment="safety topics">
+    <list default="true" id="175425d1-3c86-4ba5-adb4-eedefae43c4d" name="Changes" comment="used bootstrap3 and update base.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML/templates/ML/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/ML/templates/ML/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ML/templates/ML/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ML/templates/ML/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Merry_Xmas/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Merry_Xmas/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -155,7 +153,7 @@
       <workItem from="1716509785572" duration="3037000" />
       <workItem from="1716595556295" duration="11766000" />
       <workItem from="1716768865524" duration="4330000" />
-      <workItem from="1716854849177" duration="11713000" />
+      <workItem from="1716854849177" duration="12321000" />
     </task>
     <task id="LOCAL-00001" summary="Init project">
       <option name="closed" value="true" />
@@ -421,7 +419,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716867561485</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="used bootstrap3 and update base.html">
+      <option name="closed" value="true" />
+      <created>1716879916705</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1716879916705</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -440,7 +446,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="register Topic model" />
     <MESSAGE value="define Entry model" />
     <MESSAGE value="Shine upon URL" />
     <MESSAGE value="create view" />
@@ -465,7 +470,8 @@
     <MESSAGE value="related data and users" />
     <MESSAGE value="fix register form and add some test account" />
     <MESSAGE value="safety topics" />
-    <option name="LAST_COMMIT_MESSAGE" value="safety topics" />
+    <MESSAGE value="used bootstrap3 and update base.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="used bootstrap3 and update base.html" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Merry_Xmas$manage.coverage" NAME="manage Coverage Results" MODIFIED="1716366780019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

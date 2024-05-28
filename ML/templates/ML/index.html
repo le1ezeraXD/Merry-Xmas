@@ -7,9 +7,20 @@
 <body>
 {% extends "ML/base.html" %}
 
-{% block title%} Index Title {% endblock %}
+{% block header %}
+    <div class="jumbotron">
+    <h1>Track your learning.</h1>
+    </div>
+{% endblock header %}
 {% block content %}
-<p>Learning Log helps u keep track of ur learning, for any topic u're learning about</p>
+<h2>
+    <a href="{% url 'register' %}">Register an account</a> to make
+your own Learning Log, and list the topics you're learning about.
+</h2>
+    <h2>
+    Whenever you learn something new about a topic, make an entry
+    summarizing what you've learned.
+    </h2>
 {% endblock content %}
 </body>
 </html>
