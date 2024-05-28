@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="175425d1-3c86-4ba5-adb4-eedefae43c4d" name="Changes" comment="update login.html">
+    <list default="true" id="175425d1-3c86-4ba5-adb4-eedefae43c4d" name="Changes" comment="update topic">
+      <change afterPath="$PROJECT_DIR$/Merry_Xmas/static/placeholder.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML/templates/ML/new_topic.html" beforeDir="false" afterPath="$PROJECT_DIR$/ML/templates/ML/new_topic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML/templates/ML/topic.html" beforeDir="false" afterPath="$PROJECT_DIR$/ML/templates/ML/topic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML/templates/ML/topics.html" beforeDir="false" afterPath="$PROJECT_DIR$/ML/templates/ML/topics.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Merry_Xmas/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Merry_Xmas/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Merry_Xmas/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Merry_Xmas/wsgi.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +157,7 @@
       <workItem from="1716509785572" duration="3037000" />
       <workItem from="1716595556295" duration="11766000" />
       <workItem from="1716768865524" duration="4330000" />
-      <workItem from="1716854849177" duration="15884000" />
+      <workItem from="1716854849177" duration="18827000" />
     </task>
     <task id="LOCAL-00001" summary="Init project">
       <option name="closed" value="true" />
@@ -445,7 +447,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716881441347</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="update topic">
+      <option name="closed" value="true" />
+      <created>1716888446173</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1716888446173</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -464,7 +474,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="create view" />
     <MESSAGE value="create html page" />
     <MESSAGE value="add base.html" />
     <MESSAGE value="add Unversioned Files" />
@@ -489,7 +498,8 @@
     <MESSAGE value="used bootstrap3 and update base.html" />
     <MESSAGE value="update index.html" />
     <MESSAGE value="update login.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="update login.html" />
+    <MESSAGE value="update topic" />
+    <option name="LAST_COMMIT_MESSAGE" value="update topic" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Merry_Xmas$manage.coverage" NAME="manage Coverage Results" MODIFIED="1716366780019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
