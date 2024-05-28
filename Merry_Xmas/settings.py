@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "ML",
-    "users.apps.UsersConfig"
+    "users.apps.UsersConfig",
+    'bootstrap3',
 ]
 
 MIDDLEWARE = [
@@ -126,3 +127,7 @@ STATIC_URL = "static/"
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 LOGIN_URL = '/users/login'
+
+BOOTSTRAP3 = {
+    'include_jquery': True,
+}
