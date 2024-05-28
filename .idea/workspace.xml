@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="175425d1-3c86-4ba5-adb4-eedefae43c4d" name="Changes" comment="update index.html">
+    <list default="true" id="175425d1-3c86-4ba5-adb4-eedefae43c4d" name="Changes" comment="update login.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/templates/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML/templates/ML/new_topic.html" beforeDir="false" afterPath="$PROJECT_DIR$/ML/templates/ML/new_topic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML/templates/ML/topic.html" beforeDir="false" afterPath="$PROJECT_DIR$/ML/templates/ML/topic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML/templates/ML/topics.html" beforeDir="false" afterPath="$PROJECT_DIR$/ML/templates/ML/topics.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +155,7 @@
       <workItem from="1716509785572" duration="3037000" />
       <workItem from="1716595556295" duration="11766000" />
       <workItem from="1716768865524" duration="4330000" />
-      <workItem from="1716854849177" duration="13112000" />
+      <workItem from="1716854849177" duration="15884000" />
     </task>
     <task id="LOCAL-00001" summary="Init project">
       <option name="closed" value="true" />
@@ -434,7 +437,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716880499211</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="update login.html">
+      <option name="closed" value="true" />
+      <created>1716881441347</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1716881441347</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -453,7 +464,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Shine upon URL" />
     <MESSAGE value="create view" />
     <MESSAGE value="create html page" />
     <MESSAGE value="add base.html" />
@@ -478,7 +488,8 @@
     <MESSAGE value="safety topics" />
     <MESSAGE value="used bootstrap3 and update base.html" />
     <MESSAGE value="update index.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="update index.html" />
+    <MESSAGE value="update login.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="update login.html" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Merry_Xmas$manage.coverage" NAME="manage Coverage Results" MODIFIED="1716366780019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

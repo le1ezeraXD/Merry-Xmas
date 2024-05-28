@@ -5,14 +5,21 @@
     <title>Add a new topic</title>
 </head>
 {% extends 'ML/base.html' %}
+{% load bootstrap3 %}
 <body>
-{% block content %}
-<p>Add a new topic</p>
 
-<form action="{% url 'new_topic' %}" method="post">
+{% block header %}
+<h2>Add a new Topic</h2>
+{% endblock header %}
+
+{% block content %}
+<form action="{% url 'new_topic' %}" method="post" class="form">
     {% csrf_token %}
-    {{ form.as_p }}
-    <button name="submit">add topic</button>
+    {% bootstrap_form form %}
+
+    {% buttons %}
+        <button name="submit" class="btn btn-primary">add topic</button>
+    {% endbuttons %}
 </form>
 {% endblock content %}
 </body>
