@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="175425d1-3c86-4ba5-adb4-eedefae43c4d" name="Changes" comment="deployed heroku">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Merry_Xmas/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Merry_Xmas/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +153,7 @@
       <workItem from="1716595556295" duration="11766000" />
       <workItem from="1716768865524" duration="4330000" />
       <workItem from="1716854849177" duration="18953000" />
-      <workItem from="1716940603233" duration="1886000" />
+      <workItem from="1716940603233" duration="6145000" />
     </task>
     <task id="LOCAL-00001" summary="Init project">
       <option name="closed" value="true" />
