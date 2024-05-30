@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="175425d1-3c86-4ba5-adb4-eedefae43c4d" name="Changes" comment="update basedir">
+    <list default="true" id="175425d1-3c86-4ba5-adb4-eedefae43c4d" name="Changes" comment="try to add service databases">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Merry_Xmas/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Merry_Xmas/settings.py" afterDir="false" />
     </list>
@@ -485,7 +485,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717036775694</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="try to add service databases">
+      <option name="closed" value="true" />
+      <created>1717037609440</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1717037609440</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -504,7 +512,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="renamed topic.html to topics.html" />
     <MESSAGE value="add topics in base.html and add block content" />
     <MESSAGE value="make index.html extend base.html, add title and block" />
     <MESSAGE value="add single topic" />
@@ -529,7 +536,8 @@
     <MESSAGE value="update static files settings" />
     <MESSAGE value="add /staticfiles" />
     <MESSAGE value="update basedir" />
-    <option name="LAST_COMMIT_MESSAGE" value="update basedir" />
+    <MESSAGE value="try to add service databases" />
+    <option name="LAST_COMMIT_MESSAGE" value="try to add service databases" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Merry_Xmas$manage.coverage" NAME="manage Coverage Results" MODIFIED="1716366780019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
