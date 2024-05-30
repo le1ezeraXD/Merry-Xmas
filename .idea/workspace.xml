@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="175425d1-3c86-4ba5-adb4-eedefae43c4d" name="Changes" comment="update DATABASES['NAME'] remove BASEDIR">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Merry_Xmas/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Merry_Xmas/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-    </list>
+    <list default="true" id="175425d1-3c86-4ba5-adb4-eedefae43c4d" name="Changes" comment="add postgresql" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -518,7 +514,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717039951447</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="add postgresql">
+      <option name="closed" value="true" />
+      <created>1717049474553</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1717049474553</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -537,7 +541,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add new topic" />
     <MESSAGE value="add new entry" />
     <MESSAGE value="add edit entry" />
     <MESSAGE value="add new app: users" />
@@ -562,7 +565,8 @@
     <MESSAGE value="update DATABASES['NAME'] path" />
     <MESSAGE value="Revert &quot;update basedir&quot;&#10;&#10;This reverts commit 10407ebc" />
     <MESSAGE value="update DATABASES['NAME'] remove BASEDIR" />
-    <option name="LAST_COMMIT_MESSAGE" value="update DATABASES['NAME'] remove BASEDIR" />
+    <MESSAGE value="add postgresql" />
+    <option name="LAST_COMMIT_MESSAGE" value="add postgresql" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Merry_Xmas$manage.coverage" NAME="manage Coverage Results" MODIFIED="1716366780019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
