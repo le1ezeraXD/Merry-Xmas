@@ -145,6 +145,12 @@ BOOTSTRAP3 = {
 
 #Heroku setting
 if os.environ['HOME'] == '/app':
+    SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+
+    ALLOWED_HOSTS = ['le1ezeraxd-1d08f1aca5f9.herokuapp.com']
+
+    DEBUG = False
+
     import dj_database_url
     DATABASES = {
         'default': dj_database_url.config(default='postgres://localhost')
