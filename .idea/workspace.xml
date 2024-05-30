@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="175425d1-3c86-4ba5-adb4-eedefae43c4d" name="Changes" comment="fix DATABASE_URL bug">
+    <list default="true" id="175425d1-3c86-4ba5-adb4-eedefae43c4d" name="Changes" comment="make index to be the first page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ML/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML/urls.py" afterDir="false" />
     </list>
@@ -533,7 +533,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717049777767</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="make index to be the first page">
+      <option name="closed" value="true" />
+      <created>1717050500136</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1717050500136</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -552,7 +560,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add edit entry" />
     <MESSAGE value="add new app: users" />
     <MESSAGE value="update entry length" />
     <MESSAGE value="add users url" />
@@ -577,7 +584,8 @@
     <MESSAGE value="update DATABASES['NAME'] remove BASEDIR" />
     <MESSAGE value="add postgresql" />
     <MESSAGE value="fix DATABASE_URL bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix DATABASE_URL bug" />
+    <MESSAGE value="make index to be the first page" />
+    <option name="LAST_COMMIT_MESSAGE" value="make index to be the first page" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Merry_Xmas$manage.coverage" NAME="manage Coverage Results" MODIFIED="1716366780019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
