@@ -121,8 +121,13 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
-STATIC_URL = "static/"
+STATIC_URL = "/static/"
 
+STATIC_ROOT = 'staticfiles'
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+STATICFILES_DIRS = [
+        os.path.join(BASE_DIR, 'static')
+    ]
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
@@ -134,7 +139,8 @@ BOOTSTRAP3 = {
     'include_jquery': True,
 }
 
-if os.getcwd() == '/app':
+#Heroku setting
+if os.environ['HOME'] == '/app':
     import dj_database_url
     DATABASES = {
         'default': dj_database_url.config(default='postgres://localhost')
@@ -142,9 +148,9 @@ if os.getcwd() == '/app':
     SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
     ALLOWED_HOSTS = ['*']
-
+    STATIC_URL = "/static/"
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-    STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-    STATICFILES_DIRS = {
+    STATIC_ROOT = 'staticfiles'
+    STATICFILES_DIRS = [
         os.path.join(BASE_DIR, 'static')
-    }
+    ]
