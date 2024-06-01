@@ -28,7 +28,7 @@ SECRET_KEY = "django-insecure-1nn2o(guctnn9o%+nwmp+ksgrk902+^lflovd76-9r#y@9lu)h
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost']
 
 
 # Application definition
@@ -60,8 +60,8 @@ ROOT_URLCONF = "Merry_Xmas.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [BASE_DIR / 'templates']
-        ,
+        "DIRS": [os.path.join(BASE_DIR, "templates")],
+
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
