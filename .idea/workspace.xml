@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="175425d1-3c86-4ba5-adb4-eedefae43c4d" name="Changes" comment="set DUBUG=False for Heroku">
-      <change afterPath="$PROJECT_DIR$/Merry_Xmas/templates/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Merry_Xmas/templates/500.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Merry_Xmas/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Merry_Xmas/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,12 +39,12 @@
     &quot;assignee&quot;: &quot;le1ezeraXD&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:le1ezeraXD/Merry-Xmas.git",
-    "accountId": "7f51e9fe-b572-46b8-8ef1-bbe641acc3ca"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:le1ezeraXD/Merry-Xmas.git&quot;,
+    &quot;accountId&quot;: &quot;7f51e9fe-b572-46b8-8ef1-bbe641acc3ca&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
